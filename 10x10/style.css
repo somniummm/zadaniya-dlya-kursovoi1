@@ -1,0 +1,27 @@
+table, tr, td{
+    border: 1px solid #000;
+    border-collapse:collapse;
+}
+
+tr, td{
+    padding: 25px;
+}
+
+.lose{
+    background: red;
+}
+
+.win{
+    background: green;
+}
+
+.user-none{
+    user-select: none;
+    pointer-events: none;
+}
+
+p{
+    font-size: 72px;
+    color: red;
+    font-weight: 700;
+}
